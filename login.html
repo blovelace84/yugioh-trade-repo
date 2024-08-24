@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="trade.css">
-    <title>Trade Listings</title>
+    <title>Login- Yu-gi-oh! Trading Platform</title>
 </head>
 <body>
     <header>
-        <h1>Trading listings</h1>
+        <h1>Login</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -20,17 +20,15 @@
         </nav>
     </header>
     <main>
-        <h2>Available Trades</h2>
-        <ul id="trade-list">
-            <li>
-                <h3>Blue-Eyes White Dragon</h3>
-                <p>Looking for: Dark Magician</p>
-                <p>User: YugiFan123</p>
-            </li>
-        </ul>
+        <form action="" id="login-form">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Enter Email" required>
+            <label for="password">Password:</label>
+            <input type="text" id="password" name="password" placeholder="Enter Password" required>
+
+            <button type="submit">Login</button>
+        </form>
+        <p>Don't have an Account? <a href="register.html">Register Here</a></p>
     </main>
-    <footer>
-        <p>&copy; 2024 Yu-gi-oh! Trading Platform. All Rights Reserved.</p>
-    </footer>
 </body>
 </html>
