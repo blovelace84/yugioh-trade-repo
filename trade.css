@@ -110,3 +110,25 @@ form button{
     cursor: pointer;
 }
 
+input[type="text"], input[type="email"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"]{
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #45a049;
+}
+
